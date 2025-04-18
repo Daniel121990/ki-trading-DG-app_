@@ -1,19 +1,20 @@
-# 🎈 Blank app template
+# KI-Trading-App
 
-A simple Streamlit app template for you to modify!
+Live-Trading-Analyse für Gold, Tesla, NVIDIA, XRP u.a.
+Funktionen:
+- Live-Charts (1-Minuten)
+- EMA, RSI, MACD
+- Signal-Anzeige BUY/SELL (folgt)
+- Prognose der nächsten 3 Candles (folgt)
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Ausführen lokal
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## Deployment mit Streamlit Cloud
+1. Forke dieses Repo
+2. Gehe zu https://streamlit.io/cloud
+3. Verknüpfe deinen GitHub-Account
+4. Wähle dein Repo aus und deploye
